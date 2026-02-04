@@ -21,21 +21,13 @@ export function ControlSection() {
                         </div>
                     </div>
 
-                    {/* Image/Mockup */}
                     <div className="lg:w-1/2 relative">
                         <div className="relative rounded-xl overflow-hidden shadow-2xl border border-slate-200 bg-slate-100 aspect-video flex items-center justify-center">
-                            {/* Placeholder for Dashboard Mockup */}
-                            <div className="absolute inset-0 bg-gradient-to-br from-slate-100 to-slate-200" />
-                            <div className="relative z-10 text-center p-8">
-                                <div className="bg-white p-4 rounded-lg shadow-sm max-w-sm mx-auto mb-4">
-                                    <div className="h-4 bg-slate-200 rounded w-3/4 mb-2"></div>
-                                    <div className="h-4 bg-slate-200 rounded w-1/2"></div>
-                                </div>
-                                <span className="text-slate-400 font-medium">Dashboard Mockup</span>
-                            </div>
-
-                            {/* Or use a real image if available via URL */}
-                            {/* <img src="..." alt="Dashboard" className="object-cover w-full h-full" /> */}
+                            <img
+                                src="/dashboard-mockup.png"
+                                alt="Dashboard NVR"
+                                className="object-cover w-full h-full"
+                            />
                         </div>
 
                         {/* Decorative Elements */}
