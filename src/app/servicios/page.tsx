@@ -72,8 +72,8 @@ export default function ServicesPage() {
                             <div className="rounded-2xl overflow-hidden shadow-xl aspect-video relative">
                                 <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/20 to-transparent z-10" />
                                 <img
-                                    src="https://images.unsplash.com/photo-1591784013470-3d8540b6133a?q=80&w=2070&auto=format&fit=crop"
-                                    alt="Diesel Truck"
+                                    src="/diesel-service.jpg"
+                                    alt="Camión cisterna de Diesel NVR"
                                     className="object-cover w-full h-full"
                                 />
                             </div>
@@ -124,8 +124,8 @@ export default function ServicesPage() {
                             <div className="rounded-2xl overflow-hidden shadow-xl aspect-video relative">
                                 <div className="absolute inset-0 bg-gradient-to-bl from-orange-900/20 to-transparent z-10" />
                                 <img
-                                    src="https://images.unsplash.com/photo-1585820353135-26a9787e9ec9?q=80&w=2070&auto=format&fit=crop"
-                                    alt="GLP Tank"
+                                    src="/glp-service.jpg"
+                                    alt="Tanques de almacenamiento GLP"
                                     className="object-cover w-full h-full"
                                 />
                             </div>
