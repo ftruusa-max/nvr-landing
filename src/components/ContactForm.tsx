@@ -23,6 +23,19 @@ export function ContactForm() {
                         </CardHeader>
                         <CardContent>
                             <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div className="md:col-span-2 space-y-2">
+                                    <Label htmlFor="requirement-type">Tipo de Requerimiento</Label>
+                                    <Select>
+                                        <SelectTrigger>
+                                            <SelectValue placeholder="Seleccione una opción" />
+                                        </SelectTrigger>
+                                        <SelectContent>
+                                            <SelectItem value="quote">Solicitud de cotización</SelectItem>
+                                            <SelectItem value="demo">Solicitud de Demo</SelectItem>
+                                            <SelectItem value="general">Otros / Consulta General</SelectItem>
+                                        </SelectContent>
+                                    </Select>
+                                </div>
                                 <div className="space-y-2">
                                     <Label htmlFor="name">Nombre Completo</Label>
                                     <Input id="name" placeholder="Juan Pérez" />
@@ -38,19 +51,6 @@ export function ContactForm() {
                                 <div className="space-y-2">
                                     <Label htmlFor="phone">Teléfono / Celular</Label>
                                     <Input id="phone" placeholder="999 000 000" />
-                                </div>
-                                <div className="md:col-span-2 space-y-2">
-                                    <Label htmlFor="requirement-type">Tipo de Requerimiento</Label>
-                                    <Select>
-                                        <SelectTrigger>
-                                            <SelectValue placeholder="Seleccione una opción" />
-                                        </SelectTrigger>
-                                        <SelectContent>
-                                            <SelectItem value="quote">Solicitud de cotización</SelectItem>
-                                            <SelectItem value="demo">Solicitud de Demo</SelectItem>
-                                            <SelectItem value="general">Otros / Consulta General</SelectItem>
-                                        </SelectContent>
-                                    </Select>
                                 </div>
                                 <div className="md:col-span-2 space-y-2">
                                     <Label htmlFor="fuel">Tipo de Combustible de Interés</Label>
