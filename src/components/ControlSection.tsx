@@ -16,7 +16,7 @@ export function ControlSection() {
                             Ponemos a su alcance métricas avanzadas y trazabilidad completa para una logística moderna, ágil y sin sorpresas.
                         </p>
                         <div className="pt-4">
-                            <Button size="lg" className="bg-primary text-white font-semibold" asChild>
+                            <Button size="lg" className="bg-primary text-white text-lg font-bold" asChild>
                                 <Link href="/contacto">Solicitar Demo</Link>
                             </Button>
                         </div>
