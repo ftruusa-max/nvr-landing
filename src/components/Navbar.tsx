@@ -39,8 +39,8 @@ export function Navbar() {
                         <Phone className="mr-2 h-4 w-4" />
                         999 555 444
                     </div>
-                    <Button className="bg-primary hover:bg-primary/90 text-white font-semibold">
-                        Portal de Cliente
+                    <Button className="bg-primary hover:bg-primary/90 text-white font-semibold" asChild>
+                        <Link href="https://nvr-portaldepedidos.glide.page/dl/45da45" target="_blank">Portal de Cliente</Link>
                     </Button>
                 </div>
 
@@ -64,7 +64,9 @@ export function Navbar() {
                         <Link href="#contact" className="text-sm font-medium py-2 border-b">Contáctanos</Link>
                     </div>
                     <div className="pt-4">
-                        <Button className="w-full bg-primary mb-3">Portal de Cliente</Button>
+                        <Button className="w-full bg-primary mb-3" asChild>
+                            <Link href="https://nvr-portaldepedidos.glide.page/dl/45da45" target="_blank">Portal de Cliente</Link>
+                        </Button>
                         <div className="flex items-center justify-center text-sm font-medium text-muted-foreground">
                             <Phone className="mr-2 h-4 w-4" />
                             999 555 444
