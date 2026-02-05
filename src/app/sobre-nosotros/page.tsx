@@ -200,7 +200,7 @@ export default function AboutPage() {
                         Si te motiva el trabajo bien hecho y quieres ser parte de una empresa donde tu rol importa, nos gustaría conocerte.
                     </p>
                     <Button size="lg" className="bg-slate-900 text-white hover:bg-slate-800 text-lg px-8 py-6 h-auto" asChild>
-                        <Link href="mailto:rrhh@nvr.com.pe">Únete al equipo</Link>
+                        <Link href="/unete-al-equipo">Únete al equipo</Link>
                     </Button>
                 </div>
             </section>
