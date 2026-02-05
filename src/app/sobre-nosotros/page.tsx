@@ -64,8 +64,14 @@ export default function AboutPage() {
 
                         {/* Carlos Ramírez */}
                         <Card className="hover:shadow-lg transition-shadow border-none shadow-md overflow-hidden group">
-                            <div className="h-2 bg-blue-600 w-full" />
-                            <CardContent className="pt-8 px-6 pb-8">
+                            <div className="w-full h-80 overflow-hidden relative">
+                                <img
+                                    src="/team-carlos.jpg"
+                                    alt="Carlos Ramírez"
+                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                />
+                            </div>
+                            <CardContent className="pt-6 px-6 pb-8">
                                 <div className="mb-4">
                                     <h3 className="text-xl font-bold text-slate-900">CARLOS RAMÍREZ</h3>
                                     <p className="text-primary font-medium">Coordinador de Operaciones</p>
@@ -81,8 +87,14 @@ export default function AboutPage() {
 
                         {/* María Fernanda López */}
                         <Card className="hover:shadow-lg transition-shadow border-none shadow-md overflow-hidden group">
-                            <div className="h-2 bg-teal-500 w-full" />
-                            <CardContent className="pt-8 px-6 pb-8">
+                            <div className="w-full h-80 overflow-hidden relative">
+                                <img
+                                    src="/team-maria.jpg"
+                                    alt="María Fernanda López"
+                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                />
+                            </div>
+                            <CardContent className="pt-6 px-6 pb-8">
                                 <div className="mb-4">
                                     <h3 className="text-xl font-bold text-slate-900">MARÍA FERNANDA LÓPEZ</h3>
                                     <p className="text-teal-600 font-medium">Administración y Control</p>
@@ -98,8 +110,14 @@ export default function AboutPage() {
 
                         {/* Jorge Salazar */}
                         <Card className="hover:shadow-lg transition-shadow border-none shadow-md overflow-hidden group">
-                            <div className="h-2 bg-orange-500 w-full" />
-                            <CardContent className="pt-8 px-6 pb-8">
+                            <div className="w-full h-80 overflow-hidden relative">
+                                <img
+                                    src="/team-jorge.jpg"
+                                    alt="Jorge Salazar"
+                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                />
+                            </div>
+                            <CardContent className="pt-6 px-6 pb-8">
                                 <div className="mb-4">
                                     <h3 className="text-xl font-bold text-slate-900">JORGE SALAZAR</h3>
                                     <p className="text-orange-600 font-medium">Supervisor de Logística</p>
@@ -115,8 +133,14 @@ export default function AboutPage() {
 
                         {/* Ana Torres */}
                         <Card className="hover:shadow-lg transition-shadow border-none shadow-md overflow-hidden group">
-                            <div className="h-2 bg-purple-500 w-full" />
-                            <CardContent className="pt-8 px-6 pb-8">
+                            <div className="w-full h-80 overflow-hidden relative">
+                                <img
+                                    src="/team-ana.jpg"
+                                    alt="Ana Torres"
+                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                />
+                            </div>
+                            <CardContent className="pt-6 px-6 pb-8">
                                 <div className="mb-4">
                                     <h3 className="text-xl font-bold text-slate-900">ANA TORRES</h3>
                                     <p className="text-purple-600 font-medium">Atención al Cliente Empresarial</p>
@@ -132,8 +156,14 @@ export default function AboutPage() {
 
                         {/* Luis Fernando Pérez */}
                         <Card className="hover:shadow-lg transition-shadow border-none shadow-md overflow-hidden group lg:col-start-2">
-                            <div className="h-2 bg-indigo-500 w-full" />
-                            <CardContent className="pt-8 px-6 pb-8">
+                            <div className="w-full h-80 overflow-hidden relative">
+                                <img
+                                    src="/team-luis.png"
+                                    alt="Luis Fernando Pérez"
+                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                />
+                            </div>
+                            <CardContent className="pt-6 px-6 pb-8">
                                 <div className="mb-4">
                                     <h3 className="text-xl font-bold text-slate-900">LUIS FERNANDO PÉREZ</h3>
                                     <p className="text-indigo-600 font-medium">Planificación y Abastecimiento</p>
