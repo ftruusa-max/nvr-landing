@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export function Hero() {
     return (
@@ -28,8 +29,8 @@ export function Hero() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                        <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white text-lg px-8 font-bold">
-                            Solicitar Cotización
+                        <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white text-lg px-8 font-bold" asChild>
+                            <Link href="/contacto">Solicitar Cotización</Link>
                         </Button>
                         <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 font-bold">
                             Nuestros Servicios <ArrowRight className="ml-2 h-5 w-5" />

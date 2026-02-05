@@ -65,7 +65,7 @@ export default function ServicesPage() {
                             </div>
 
                             <Button className="bg-primary hover:bg-primary/90 text-white font-semibold" asChild>
-                                <Link href="/#contact">👉 Solicitar cotización de Diesel</Link>
+                                <Link href="/contacto">👉 Solicitar cotización de Diesel</Link>
                             </Button>
                         </div>
                         <div className="lg:w-1/2">
@@ -117,7 +117,7 @@ export default function ServicesPage() {
                             </div>
 
                             <Button className="bg-secondary hover:bg-secondary/90 text-white font-semibold" asChild>
-                                <Link href="/#contact">👉 Evaluar suministro de GLP</Link>
+                                <Link href="/contacto">👉 Evaluar suministro de GLP</Link>
                             </Button>
                         </div>
                         <div className="lg:w-1/2">
@@ -169,7 +169,7 @@ export default function ServicesPage() {
                             </div>
 
                             <Button className="bg-primary hover:bg-primary/90 text-white font-semibold" asChild>
-                                <Link href="/#contact">👉 Consultar disponibilidad</Link>
+                                <Link href="/contacto">👉 Consultar disponibilidad</Link>
                             </Button>
                         </div>
                         <div className="lg:w-1/2">
@@ -224,7 +224,7 @@ export default function ServicesPage() {
                         Cuéntanos tu consumo, tipo de operación y ubicación. Te proponemos la solución más eficiente para tu negocio.
                     </p>
                     <Button size="lg" className="bg-white text-primary hover:bg-blue-50 text-lg px-8 py-6 h-auto font-bold shadow-lg" asChild>
-                        <Link href="/#contact">👉 Solicitar información</Link>
+                        <Link href="/contacto">👉 Solicitar información</Link>
                     </Button>
                 </div>
             </section>
