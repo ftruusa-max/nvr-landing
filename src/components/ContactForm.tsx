@@ -107,7 +107,7 @@ export function ContactForm() {
                                                 <SelectValue placeholder="Seleccione una opción" />
                                             </SelectTrigger>
                                             <SelectContent>
-                                                <SelectItem value="quote">Solicitud de cotización</SelectItem>
+                                                <SelectItem value="cotiza">Solicitud de cotización</SelectItem>
                                                 <SelectItem value="demo">Solicitud de Demo</SelectItem>
                                                 <SelectItem value="general">Otros / Consulta General</SelectItem>
                                             </SelectContent>
