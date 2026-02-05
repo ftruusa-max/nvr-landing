@@ -19,7 +19,7 @@ export function Navbar() {
 
                 {/* Desktop Navigation */}
                 <div className="hidden md:flex items-center space-x-8">
-                    <Link href="#inicio" className="text-sm font-medium hover:text-primary transition-colors">
+                    <Link href="/" className="text-sm font-medium hover:text-primary transition-colors">
                         Inicio
                     </Link>
                     <Link href="/sobre-nosotros" className="text-sm font-medium hover:text-primary transition-colors">
@@ -58,7 +58,7 @@ export function Navbar() {
                 <div className="md:hidden border-t bg-white p-4 space-y-4">
                     {/* Mobile Links */}
                     <div className="flex flex-col space-y-3">
-                        <Link href="#inicio" className="text-sm font-medium py-2 border-b">Inicio</Link>
+                        <Link href="/" className="text-sm font-medium py-2 border-b">Inicio</Link>
                         <Link href="/sobre-nosotros" className="text-sm font-medium py-2 border-b">Sobre Nosotros</Link>
                         <Link href="/servicios" className="text-sm font-medium py-2 border-b">Servicios</Link>
                         <Link href="#contact" className="text-sm font-medium py-2 border-b">Contáctanos</Link>
