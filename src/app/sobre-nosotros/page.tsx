@@ -68,7 +68,7 @@ export default function AboutPage() {
                                 <img
                                     src="/team-carlos.jpg"
                                     alt="Carlos Ramírez"
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                                 />
                             </div>
                             <CardContent className="pt-6 px-6 pb-8">
@@ -91,7 +91,7 @@ export default function AboutPage() {
                                 <img
                                     src="/team-maria.jpg"
                                     alt="María Fernanda López"
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                                 />
                             </div>
                             <CardContent className="pt-6 px-6 pb-8">
@@ -114,7 +114,7 @@ export default function AboutPage() {
                                 <img
                                     src="/team-jorge.jpg"
                                     alt="Jorge Salazar"
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                                 />
                             </div>
                             <CardContent className="pt-6 px-6 pb-8">
@@ -137,7 +137,7 @@ export default function AboutPage() {
                                 <img
                                     src="/team-ana.jpg"
                                     alt="Ana Torres"
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                                 />
                             </div>
                             <CardContent className="pt-6 px-6 pb-8">
@@ -160,7 +160,7 @@ export default function AboutPage() {
                                 <img
                                     src="/team-luis.png"
                                     alt="Luis Fernando Pérez"
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                                 />
                             </div>
                             <CardContent className="pt-6 px-6 pb-8">
