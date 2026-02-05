@@ -32,7 +32,7 @@ export function Hero() {
                         <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white text-lg px-8 font-bold" asChild>
                             <Link href="/contacto">Solicitar Cotización</Link>
                         </Button>
-                        <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-8 font-bold">
+                        <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-7 font-bold">
                             Nuestros Servicios <ArrowRight className="ml-2 h-5 w-5" />
                         </Button>
                     </div>
